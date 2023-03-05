@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+    color: rgb(34, 70, 70);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    /* ! wrapper of the all content */
+#container {
+    padding: 10px 0 20px;
+    width: 50vw;
+    margin: 10px auto;
+    background-color: #F9F4F0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+    /* ? Main heading: tolstoy  */
+h1 {
+    color: #050723;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tolstoy {
+    color: crimson;
+}
+
+    /* ! image and the paragraph elements */
+
+.img-container {
+    background-color: #EADCCF;
+    padding: 30px 0 10px;
+    text-align: center;
+}
+
+
+    /* ! Short Facts Heading  */
+h2 {
+    width: 70%;
+    margin: 10px auto;
+    color: #241418;
+}
+
+    /* ! Short Facts Content  */
+ul {
+    width: 70%;
+    margin: auto;
+    line-height: 22px;
+}
+
+.li-span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+ul li ul li {
+    list-style-type: square;
+}
