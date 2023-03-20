@@ -10,7 +10,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-    /* ! wrapper of the all content */
+/* ! wrapper of the all content */
 #container {
     padding: 10px 0 20px;
     width: 50vw;
@@ -20,37 +20,49 @@ body {
 
 }
 
-    /* ? Main heading: tolstoy  */
+/* ? Main heading: tolstoy  */
 h1 {
     color: #050723;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.tolstoy {
+.tolstoy-heading1 {
     color: crimson;
 }
 
-    /* ! image and the paragraph elements */
+/* ! image and the paragraph elements */
 
 .img-container {
     background-color: #EADCCF;
     padding: 30px 0 10px;
     text-align: center;
+
+
 }
 
-
-    /* ! Short Facts Heading  */
-h2 {
+.tolstoy-image {
     width: 70%;
+
+}
+
+/* ! list container div */
+
+.container-list {
+    width: 70%;
+    margin: auto;
+}
+
+/* ! Short Facts Heading  */
+h2 {
+
     margin: 10px auto;
     color: #241418;
 }
 
-    /* ! Short Facts Content  */
+/* ! Short Facts Content  */
 ul {
-    width: 70%;
-    margin: auto;
+
     line-height: 22px;
 }
 
